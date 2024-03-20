@@ -5,7 +5,7 @@
 	import HamburgerButton from "./HamburgerButton.svelte";
 	import Navlinks from "./Navlinks.svelte";
 
-    let open: boolean = true;
+    let open: boolean;
 </script>
 
 <nav class="bg-neutral-800 px-10 md:px-40 py-6 flex items-center justify-between z-10">
